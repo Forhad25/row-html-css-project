@@ -1,0 +1,321 @@
+/* reset code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* css font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Mochiy+Pop+P+One&display=swap');
+
+.fix::before,
+.fix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+ul{
+  list-style: none;
+}
+
+body{
+  font-size: 14px;
+  line-height: 22px;
+  font-family:'Lato', sans-serif ;
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-weight: 700;
+}
+.area{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* btn css */
+.btn{
+  background: tomato;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+  font-style: italic;
+  transition: .3s;
+}
+.btn:hover{
+  background-color: #ff7720;
+}
+img{
+  width: 100%;
+}
+/* header css is here */
+.header{
+  background: #ddd;
+  padding: 20px 20px;
+}
+.logo{
+  float: left;
+  width: 250px;
+  margin-right: 30px;
+}
+.logo a{}
+.logo a img{}
+
+/* menu css is here */
+.menu{ float: right;
+      width: 680px;}
+
+.menu ul{
+          float: right;
+          margin-top: 14px;}
+
+.menu ul li{display: inline-block;}
+
+.menu ul li a{
+  color: #333;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  display: block;
+  transition: .3s;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+.menu ul li a:hover{
+  background-color: tomato;
+  color: #fff;
+}
+
+/* banner css is here */
+
+.banner{}
+.banner img{} 
+/* services css */
+
+.services{}
+.title{}
+.title h4{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  margin: 30px 0;
+}
+
+.service{}
+.single-service{
+  background: teal;
+  float: left;
+  width: 313px;
+  margin-right: 30px;
+  padding: 20px; 
+  color: #fff;
+  
+}
+
+.single-service:last-child,
+.service-page
+.single-service:nth-child(4)
+{
+  margin-right: 0;
+}
+.service-page
+.single-service
+{
+  width: 227px;
+  margin-bottom: 30px;
+}
+
+.single-service h4{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.single-service img{}
+.single-service p{}
+.single-service a{}
+
+/* about css */
+.about{
+  padding: 60px 0; 
+}
+.about-left{
+  float: left;
+  width: 700px;
+  margin-right: 30px; 
+}
+.about-left h4,
+.about-menu h4
+{
+  text-transform: capitalize;
+  font-size: 35px;
+  margin-bottom: 18px;
+}
+.about-menu{
+  float: right;
+  width: 270px;
+}
+.about-menu ul{}
+.about-menu ul li{
+  background-image: url("/img/arrow.png");
+  background-repeat: no-repeat;
+  background-position: -7px -1px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+.about-menu ul li:last-child{
+  border-bottom: 0;
+}
+.about-menu ul li a{
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  transition: .3s;
+}
+.about-menu ul li a:hover {
+  color: tomato;
+}
+
+/* footer css */
+
+.footer{
+  text-align: center;
+  background: teal;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.footer p{
+  
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  
+}
+
+/* page banner css */
+
+.page-banner{
+  padding: 110px 0px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+.page-banner::after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: .70;
+}
+.page-banner h2{
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  text-transform: capitalize;
+}
+/* gallary css */
+.gallarys{}
+.title h4{}
+.gallary{}
+.single-gallary{
+  float: left;
+  width: 227px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.single-gallary:nth-child(4),
+.single-gallary:last-child{
+  margin-right: 0;
+}
+
+.single-gallary iframe{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 3px;
+
+}
+
+/* contact css */
+
+.contact{
+  padding: 30px;
+}
+.contact-form{
+  float: left;
+  width: 600px;
+  margin-right: 30px;
+}
+.contact-form h4,
+.contact-address h4
+{
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.contact-form form{}
+.contact-form input{
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.contact-form textarea{
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 150px;
+}
+.contact-form input[type="submit"]{
+  background: tomato;
+  text-transform: uppercase;
+  border: 0;
+  font-size: 20px;
+  width: auto;
+  padding: 10px 30px;
+  transition: .3s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.contact-form input[type="submit"]:hover{
+  background-color: #ff7720;
+}
+.contact-address{
+  float: right;
+  width: 310px;
+}
+
+.contact-address ul{}
+.contact-address ul li{
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px
+}
+.contact-address ul li:last-child{
+  border: none;
+}
+.contact-address ul li span{
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
+.map{
+  margin-bottom: 30px;
+}
+.map iframe{
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 3px;
+  height: 300px;
+}

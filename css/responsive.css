@@ -1,0 +1,144 @@
+/* responsive for laptop */
+@media only screen and (min-width:970px) and (max-width:1200px) {
+  .area{
+    width: 900px;
+  }
+  .menu {
+    width: 580px;
+  }
+
+  .single-service {
+    width: 280px;
+  }
+
+  .service-page .single-service {
+    width: 202px;
+  }
+
+  .about-left {
+    width:  588px;
+     
+  }
+  .about-menu{
+    width: 282px;
+  }
+  .single-gallary {
+    width: 202px;
+ 
+}
+.single-service h4 {
+	line-height: 1.1;
+} 
+
+.contact-form {
+	width: 500px;
+}
+
+ }
+
+/* responsive for tablet */
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+  .area{
+    width: 750px;
+  }
+  .logo {
+    width: 200px;
+    margin-right: 20px;
+  }
+  .menu {
+    width: 490px;
+  }
+  .menu ul li a {
+    padding: 7px 10px;
+    font-size: 16px;
+  }
+  .single-service {
+    width: 230px; 
+  }
+  .service-page .single-service {
+    width: 360px;
+  }
+.service-page .single-service:nth-child(2),
+.single-service:nth-child(4),
+.single-service:nth-child(6),
+.single-service:nth-child(4)
+{
+    margin-right: 0;
+  }
+
+  .single-gallary {
+    width: 360px;
+  }
+
+  .single-gallary:nth-child(2),
+  .single-gallary:nth-child(4),
+  .single-gallary:nth-child(6),
+  .single-gallary:nth-child(8){
+    margin-right: 0;
+  }
+
+  .title h4 {
+    font-size: 35px;
+  }
+  .about-left {
+    width: 490px;
+  }
+  .about-menu {
+    width: 230px;
+  }
+  .contact-form {
+    width: 350px;
+  }
+}
+
+/* mobile responsive */
+@media only screen and (max-width:767px) {
+  .area{
+    width: 350px;
+  }
+  .menu {
+    width: 100%;
+  }
+  .title h4 {
+    font-size: 25px;
+  }
+  .single-service {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .about-left {
+    width: 100%;
+     
+}
+.btn {
+	padding: 8px 15px;
+	margin-bottom: 30px;
+}
+.about-menu {
+	width: 100%;
+}
+.about-left {
+	margin-bottom: 30px;
+}
+.service-page .single-service {
+	width: 100%;
+}
+.page-banner h2 {
+	font-size: 35px;
+}
+.single-gallary {
+	width: 100%;
+}
+.contact-form {
+	width: 100%;
+ 
+}
+.contact {
+	padding: 15px;
+}
+.contact-address {
+	width: 100%;
+}
+}
